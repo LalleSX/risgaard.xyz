@@ -1,0 +1,28 @@
+body {
+    background-image: url(pix/naturBjerg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.button {
+    background-color: #003cff;
+    border: none;
+    color: white;
+    padding: 50px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+p {
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
