@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="/sub/calc/js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="/sub/calc/calc.css">
+	<title>Calculator</title>
+ 	<link rel="stylesheet" type="text/css" href="/body.css">
+
+</head>
+<body>
+	<a href="/" class="home-button">
+  <svg viewBox="0 0 24 24">
+    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+  </svg>
+</a>
+  <div id="calculator">
+    <div id="display">
+      <span id="result"></span>
+    </div>
+    <div id="keypad">
+      <button class="digit" onclick="addToDisplay('1')">1</button>
+      <button class="digit" onclick="addToDisplay('2')">2</button>
+      <button class="digit" onclick="addToDisplay('3')">3</button>
+      <button class="operation" onclick="addToDisplay('/')">/</button>
+      <button class="digit" onclick="addToDisplay('4')">4</button>
+      <button class="digit" onclick="addToDisplay('5')">5</button>
+      <button class="digit" onclick="addToDisplay('6')">6</button>
+      <button class="operation" onclick="addToDisplay('*')">*</button>
+      <button class="digit" onclick="addToDisplay('7')">7</button>
+      <button class="digit" onclick="addToDisplay('8')">8</button>
+      <button class="digit" onclick="addToDisplay('9')">9</button>
+      <button class="operation" onclick="addToDisplay('-')">-</button>
+      <button class="digit" onclick="addToDisplay('.')">.</button>
+      <button class="digit" onclick="addToDisplay('0')">0</button>
+      <button id="equals" onclick="calculate()">=</button>
+      <button class="operation" onclick="addToDisplay('+')">+</button>
+      <button id="clear" onclick="clearDisplay()">C</button>
+    </div>
+  </div>
+  <br>
+  <a class="button" href="https://git.risgaard.xyz/risgaard.git/tree/sub/calc">SourceCode</a>
+</body>
+</html>

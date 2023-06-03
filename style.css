@@ -1,0 +1,52 @@
+.victor {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 50px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: 'Times New Roman', Times, serif;
+}
+.button {
+    background-color: #003cff;
+    border: none;
+    color: white;
+    padding: 50px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+p {
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-img {
+  float: right;
+  width: 32px;
+  height: auto;
+}
+.tor {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#tor-text {
+	top: 0;
+	right: 25;
+}
